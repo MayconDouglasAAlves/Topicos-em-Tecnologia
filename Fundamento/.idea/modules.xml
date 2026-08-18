@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fundamento.iml" filepath="$PROJECT_DIR$/Fundamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/Modulo1/Modulo1.iml" filepath="$PROJECT_DIR$/Modulo1/Modulo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo2/Modulo2.iml" filepath="$PROJECT_DIR$/Modulo2/Modulo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo3/Modulo3.iml" filepath="$PROJECT_DIR$/Modulo3/Modulo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo4/Modulo4.iml" filepath="$PROJECT_DIR$/Modulo4/Modulo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo5/Modulo5.iml" filepath="$PROJECT_DIR$/Modulo5/Modulo5.iml" />
     </modules>
   </component>
 </project>
