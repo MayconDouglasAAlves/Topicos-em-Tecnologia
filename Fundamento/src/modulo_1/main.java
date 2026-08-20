@@ -1,14 +1,14 @@
-//Altere o módulo 2 para ler valores do tipo double.
+package modulo_1;
 
 import java.util.Scanner;
-public class Main {
+public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite x: ");
-        double x = sc.nextInt();
+        int x = sc.nextInt();
         System.out.print("Digite y: ");
-        double y = sc.nextInt();
-        double z = x + y;
+        int y = sc.nextInt();
+        int z = x + y;
         System.out.println("A soma é " + z);
     }
 }
