@@ -1,4 +1,4 @@
-package modulo_5;
+package modulo5;
 
 public class main {
 }
