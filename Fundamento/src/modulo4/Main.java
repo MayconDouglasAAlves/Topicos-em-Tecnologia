@@ -1,6 +1,3 @@
-package modulo4;
-import java.util.Scanner;
-
 // Crie um programa que receba 3 notas de um aluno e calcule a média.
 // O programa deverá:
 // >Ler as três notas utilizando Scanner;
@@ -10,6 +7,9 @@ import java.util.Scanner;
 //  - "Aprovado", se a média for maior ou igual a 7;
 //  - "Recuperação", se a média estiver entre 5 e 6,9;
 //  - "Reprovado", se a média for menor que 5.
+
+package modulo4;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

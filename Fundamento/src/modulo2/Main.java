@@ -1,7 +1,7 @@
+// Altere o módulo 2 para ler valores do tipo double.
+
 package modulo2;
-/*
-Altere o módulo 2 para ler valores do tipo double.
-*/
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
