@@ -1,4 +1,5 @@
 package modulo3;
+import java.util.Scanner;
 /*
 Uma loja possui o preço de um produto armazenado inicialmente como uma String.
 Crie um programa que:
@@ -13,18 +14,17 @@ Quantidade: 4
 Valor total: R$ 100
 Desafio: altere o programa para trabalhar com preços decimais utilizando double.
 */
-import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-        System.out.print("Digite x: ");
-        double x = sc.nextDouble();
-        System.out.print("Digite y: ");
-        double y = sc.nextDouble();
-        double z = x + y;
-        System.out.println("A soma é " + z);
+
+        String preco = "10";
+        int precoInt = Integer.parseInt(preco);
+        System.out.print("Digite a quantidade de produtos: ");
+        int quantidade = sc.nextInt();
+        int valorCompra = precoInt * quantidade;
+        System.out.println("O valor da sua compra é: " + valorCompra);
     }
 }
 
-// Integer.parseInt(String)
