@@ -5,7 +5,7 @@ public class Main {
         Forma f2 = new Circulo(3);
 
         System.out.println("Área do f1: " + f1.calcularArea());
-        System.out.println("Área do f2: " + f2.calcularArea());
+        System.out.printf("Área do f2: %.2f\n" , f2.calcularArea());
 
         System.out.println("Nome da forma f1: " + f1.getNomeForma());
         System.out.println("Largura do retângulo: " + ((Retangulo) f1).getLargura());
