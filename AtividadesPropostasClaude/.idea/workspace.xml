@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c746c22a-0961-4556-9b58-00eb43df70c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salarioFuncionario/salarioFuncionario.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salarioFuncionario/src/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salarioFuncionario/src/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salarioFuncionario/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salarioFuncionario/src/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +43,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "novaAtividade2908",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/DEV/6 periodo/Topicos-em-Tecnologia/AtividadesPropostasClaude/src/Main.java"
   }
 }]]></component>
