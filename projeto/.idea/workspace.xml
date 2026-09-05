@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f458005-774c-4c42-93b2-1251a17e2e26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../prototipoMarvel/src/main/java/com/avaliativo/prototipoMarvel/CadastroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prototipoMarvel/src/main/resources/templates/pagina1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prototipoMarvel/src/main/resources/templates/pagina2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prototipoMarvel/src/main/resources/templates/pagina3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AtividadesPropostasClaude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AtividadesPropostasClaude/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
