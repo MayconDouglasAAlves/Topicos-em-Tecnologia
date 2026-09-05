@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+
+<style>
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        display: flex;
+    }
+
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .menu li a:hover {
+        background-color: #111;
+    }
+</style>
+
+<body>
+    <nav class = "menu">
+        <ul>
+            <li><a href="/pagina1">Inicio</a></li>
+            <li><a href="/pagina2">Cadastro</a></li>
+        </ul>
+    </nav>
+    <br>
+    <form action = "/pagina3" method = "post">
+        <label for = "titulo"> Título: </label>
+        <input type = "text" id = "titulo" name= "titulo">
+        <br>
+        <br>
+        <label for = "anoLancamento"> Ano de lançamento: </label>
+        <input type = "text" id = "anoLancamento" name = "anoLancamento">
+        <br>
+        <br>
+        <label for="diretor"> Diretor: </label>
+        <input type = "text" id = "diretor" name = "diretor">
+        <br>
+        <br>
+        <label for="duracao"> Duração: </label>
+        <input type = "text" id = "duracao" name = "duracao">
+        <br>
+        <br>
+        <label for="genero"> Gênero: </label>
+        <input type = "text" id = "genero" name = "genero">
+        <br>
+        <br>
+        <button type = "submit"> Enviar </button>
+        <br>
+        <br>
+    </form>
+
+</body>
+</html>

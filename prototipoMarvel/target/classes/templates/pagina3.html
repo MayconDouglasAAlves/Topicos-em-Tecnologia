@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório</title>
+</head>
+
+<style>
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        display: flex;
+    }
+
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .menu li a:hover {
+        background-color: #111;
+    }
+</style>
+
+<body>
+    <nav class = "menu">
+        <ul>
+            <li><a href="/pagina1">Inicio</a></li>
+            <li><a href="/pagina2">Cadastro</a></li>
+        </ul>
+    </nav>
+    <br>
+
+    <h1>Relatório</h1>
+
+    <p>
+        Título: <span th:text = "${titulo}"></span>
+    </p>
+    <p>
+        Ano de lançamento: <span th:text = "${anoLancamento}"></span>
+    </p>
+    <p>
+        Diretor: <span th:text = "${diretor}"></span>
+    </p>
+    <p>
+        Duração: <span th:text = "${duracao}"></span>
+    </p>
+    <p>
+        Gênero: <span th:text = "${genero}"></span>
+    </p>
+</body>
+</html>
