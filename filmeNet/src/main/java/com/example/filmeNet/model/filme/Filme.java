@@ -2,10 +2,13 @@ package com.example.filmeNet.model.filme;
 
 import jakarta.persistence.*;
 
-
+@Entity
+@Table(name="Filme")
 
 public class Filme {
-    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String nome;
     private Integer ano;
     private String genero;
