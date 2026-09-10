@@ -1,6 +1,11 @@
 package com.example.filmeNet.model.filme;
 
+import jakarta.persistence.*;
+
+
+
 public class Filme {
+    
     private String nome;
     private Integer ano;
     private String genero;
