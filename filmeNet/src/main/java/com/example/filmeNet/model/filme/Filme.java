@@ -13,22 +13,29 @@ public class Filme {
     private Integer ano;
     private String genero;
 
-    public Filme (DadosCadastroFilme dados) {
-        this.nome = dados.nome();
-        this.ano = dados.ano();
-        this.genero = dados.genero();
+    public Filme(){}
+
+    public Long getId() {
+        return id;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public Integer ano() {
+    public Integer getAno() {
         return ano;
     }
 
-    public String genero() {
+    public String getGenero() {
         return genero;
     }
+
+    public Filme (DadosCadastroFilme dados) {
+        this.nome = dados.nome();
+        this.ano = dados.ano();
+        this.genero = dados.genero();
+    }
+
 
 }

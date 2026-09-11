@@ -2,6 +2,8 @@ package com.example.filmeNet.controller;
 
 import com.example.filmeNet.model.filme.DadosCadastroFilme;
 import com.example.filmeNet.model.filme.Filme;
+import com.example.filmeNet.model.filme.FilmeRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +17,8 @@ import java.util.List;
 @RequestMapping ("/filmes")
 
 public class filmeController {
-    private List<Filme> listaFilme = new ArrayList<>();
+    @Autowired
+    private FilmeRepository repository;
 
     @GetMapping ("/formulario")
     public String carregaFormulario() {
@@ -25,13 +28,13 @@ public class filmeController {
     @PostMapping ("/formulario")
     public String cadastraFilme(DadosCadastroFilme dados) {
         Filme F1 = new Filme(dados);
-        listaFilme.add(F1);
+        repository.save(F1);
         return "redirect:/filmes/listagem";
     }
 
     @GetMapping("/listagem")
     public String carregaListagem(Model model) {
-        model.addAttribute("lista", listaFilme);
+        model.addAttribute("lista",repository.findAll());
         return "filmes/listagem";
     }
 }
