@@ -12,10 +12,13 @@
     <div layout:fragment="conteudo">
     <h1>Listagem de Filmes - Exemplo</h1>
 
+        <a th:href="@{/filmes/formulario}" class="botao-voltar">Voltar</a>
+
         <table>
             <thead>
             <tr>
                 <th>Nome</th>
+                <th>Ano</th>
                 <th>Genero</th>
                 <th>Ação</th>
             </tr>
@@ -23,6 +26,7 @@
             <tbody>
             <tr th:each="filme : ${lista}">
                 <td th:text="${filme.nome}"></td>
+                <td th:text="${filme.ano}"></td>
                 <td th:text="${filme.genero}"></td>
                 <td>
                     <form th:action="@{/filmes/{id}(id=${filme.id})}" method="post">

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<div layout:fragment="conteudo">
+<div layout:fragment="conteudo" style="position: relative;">
     <h1>Cadastro de Filmes - Exemplo</h1>
 
     <form method="post" th:action="${filme != null} ? @{/filmes/{id}(id=${filme.id})} : @{/filmes/formulario}">

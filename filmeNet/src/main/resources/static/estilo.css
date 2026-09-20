@@ -277,3 +277,24 @@ input[type="submit"] {
 .botao-editar:hover {
     background-color: #C29D25;
 }
+
+.botao-voltar {
+    background-color: var(--azul-medio);
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.botao-voltar:hover {
+    background-color: var(--azul-escuro);
+}
