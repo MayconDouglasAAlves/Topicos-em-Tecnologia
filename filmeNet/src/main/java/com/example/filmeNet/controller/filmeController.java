@@ -23,6 +23,12 @@ public class filmeController {
         return "filmes/formulario";
     }
 
+    @GetMapping("/editar/{id}")
+    public String carregaFormularioEdicao(@PathVariable Long id, Model model) {
+        model.addAttribute("filme", repository.findById(id).orElseThrow());
+        return "filmes/formulario";
+    }
+
     @PostMapping ("/formulario")
     public String cadastraFilme(DadosCadastroFilme dados) {
         Filme F1 = new Filme(dados);
@@ -42,5 +48,11 @@ public class filmeController {
         return "redirect:/filmes/listagem";
     }
 
-    
+    @PutMapping("/{id}")
+    public String atualizaFilme(@PathVariable Long id, DadosCadastroFilme dados) {
+        Filme filme = repository.findById(id).orElseThrow();
+        filme.atualizaInformacoes(dados);
+        repository.save(filme);
+        return "redirect:/filmes/listagem";
+    }
 }
