@@ -6,9 +6,7 @@ import com.example.filmeNet.model.filme.FilmeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,4 +35,12 @@ public class filmeController {
         model.addAttribute("lista",repository.findAll());
         return "filmes/listagem";
     }
+
+    @DeleteMapping("/{id}")
+    public String deletaFilme(@PathVariable Long id) {
+        repository.deleteById(id);
+        return "redirect:/filmes/listagem";
+    }
+
+    
 }

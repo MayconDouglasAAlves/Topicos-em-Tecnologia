@@ -243,3 +243,20 @@ input[type="submit"] {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.botao-excluir {
+    background-color: #C0392B;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.botao-excluir:hover {
+    background-color: #922B21;
+}
