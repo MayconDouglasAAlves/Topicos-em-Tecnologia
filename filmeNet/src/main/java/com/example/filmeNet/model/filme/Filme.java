@@ -37,5 +37,9 @@ public class Filme {
         this.genero = dados.genero();
     }
 
-
+    public void atualizaDados(DadosAlteracaoFilme dados) {
+        this.nome = dados.nome();
+        this.ano = dados.ano();
+        this.genero = dados.genero();
+    }
 }
